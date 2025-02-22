@@ -12,7 +12,7 @@ st.write("Specializing in enabling your company to grow by bringing your website
 
 st.subheader('Our Team')
 
-col1, blank_col1, col2, blank_col2, col3 = st.columns(5)
+col1, col2, col3 = st.columns(3)
 
 #find right len for each col
 col_len = int(company_data_len/3)
